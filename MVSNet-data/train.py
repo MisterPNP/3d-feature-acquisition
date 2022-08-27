@@ -12,7 +12,7 @@ import numpy as np
 import time
 from tensorboardX import SummaryWriter
 from datasets import find_dataset_def
-from models import *
+from models.mvsnet_model import MVSNet, mvsnet_loss
 from utils import *
 import gc
 import sys
